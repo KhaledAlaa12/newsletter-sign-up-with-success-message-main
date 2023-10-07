@@ -1,0 +1,130 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: hsl(234, 29%, 20%);
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(234, 29%, 20%);
+}
+li {
+  list-style: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  width: 850px;
+}
+.container > img {
+    padding: 15px;
+}
+.container .content {
+    padding: 40px;
+}
+.container .content h1 {
+    font-size: 53px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.container .content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.container .content ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.container .content li img {
+    width: 20px;
+    margin-right: 10px;
+}
+.container .content form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+.container .content form input ,
+.container .content form button {
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+}
+.container .content form input::placeholder {
+    color: hsl(234, 29%, 20%);
+}
+.container .content form button {
+    color: white;
+    font-weight: 700;
+    background-color: hsl(234, 29%, 20%);
+    background-image: linear-gradient(hsl(234, 29%, 20%));
+    border: none;
+    cursor: pointer;
+}
+.container .content form button:hover {
+    background-image: linear-gradient(to right,hsl(342, 62%, 51%),hsl(4, 100%, 67%));
+}
+.container2 {
+    background-color: white;
+    width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.container2 img {
+    width: 50px;
+}
+.container2 h1 {
+    font-size: 40px;
+}
+.container2 p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.container2 p span {
+    font-weight: 700;
+}
+.container2 button {
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    color: white;
+    font-weight: 700;
+    background-color: hsl(234, 29%, 20%);
+    background-image: linear-gradient(hsl(234, 29%, 20%));
+    border: none;
+    cursor: pointer;
+}
+.container2 button:hover {
+    background-image: linear-gradient(to right,hsl(342, 62%, 51%),hsl(4, 100%, 67%));
+}
+.hide {
+    display: none;
+}
